@@ -1,5 +1,5 @@
-from config import index
-from models.encoder import encode_text
+from .config import index
+from .models.encoder import encode_text
 
 def add_text(text_id: str, text: str):
     vector = encode_text(text)
