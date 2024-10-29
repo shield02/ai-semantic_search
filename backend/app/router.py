@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from database import add_text, search_query
+from .database import add_text, search_query
 
 router = APIRouter()
 
